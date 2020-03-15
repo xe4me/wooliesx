@@ -7,7 +7,7 @@ I also used BEM in my SASS classes.
 
 Also created a dynamic component for Typography, which can be really powerful, given that we can change the variant.
 
-When clicking on the  **ADD TO CARD** button, it will propagate the event up to it's parent, and the parent component will dump them to alert();
+When clicking on the  **ADD TO CARD** button, it will propagate the event up to its parent, and the parent component will dump them to alert();
 
 For testing, since I had no function to be tested, I only added a e2e test to the root to test the existence of the lists in the page.
 
