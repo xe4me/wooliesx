@@ -1,0 +1,22 @@
+
+:host {
+  .btn {
+    background-color: var(--color-primary);
+    box-shadow: var(--shaddow-medium);
+    cursor: pointer;
+    color: var(--color-negative);
+    border-radius: var(--radius-small);
+    display: flex;
+    font-size: 0.9em;
+    padding: calc( var(--spacing-small)/2 ) var(--spacing-small);
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    transition: var(--transition-fast) all ease-in-out;
+    &:hover {
+      background-color: var(--color-primary-dark);
+    }
+  }
+}

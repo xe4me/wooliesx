@@ -1,0 +1,20 @@
+:host {
+  .card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex: 1;
+    flex-wrap: wrap;
+    box-shadow: var(--shaddow-large);
+    border-radius: var(--radius-large);
+    padding: calc(var(--spacing) / 2);
+    background: var(--gradient-light);
+    &-special {
+      background: var(--gradient-special);
+    }
+
+    &__card {
+      max-width: 300px;
+    }
+  }
+}
